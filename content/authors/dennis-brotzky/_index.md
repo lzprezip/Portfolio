@@ -1,19 +1,20 @@
 ---
-title: Dennis Brotzky
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: /images/dennis-brotzky.jpg
+title: 李志鹏
+bio: '我是一名来自安徽的UX设计师，目前居住在上海。毕业于安徽理工大学计算机专业，已有5年的设计和产品相关经验。
+
+'
+avatar: "/images/avatar.jpg"
 featured: true
 social:
-  - title: unsplash
-    url: https://unsplash.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
+- title: unsplash
+  url: https://unsplash.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+- title: github
+  url: https://github.com
+
 ---

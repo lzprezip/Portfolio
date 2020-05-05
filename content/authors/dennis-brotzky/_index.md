@@ -5,12 +5,5 @@ avatar: "/images/avatar.jpg"
 featured: true
 social:
 - title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
-
+  url: https://github.com/lzprezip
 ---

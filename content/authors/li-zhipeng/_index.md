@@ -6,8 +6,6 @@ bio: '我是一名来自安徽的UX设计师，目前居住在上海。毕业于
 avatar: "/images/avatar.jpg"
 featured: true
 social:
-- title: bilibili
-  url: https://space.bilibili.com/69218440
 - title: github
   url: https://github.com
 - title: github

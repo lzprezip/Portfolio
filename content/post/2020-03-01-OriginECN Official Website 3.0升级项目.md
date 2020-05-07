@@ -1,12 +1,12 @@
 ---
 title: OriginECN Official Website 3.0升级项目
-date: 2020-03-01T15:00:00+00:00
+date: 2020-03-01T15:00:00.000+00:00
 hero: "/images/avatar.jpg"
 excerpt: With the growing community interest in Gatsby, we hope to create more resources
   that make it easier for anyone to grasp the power of this incredible tool.
 timeToRead: 6
 authors:
-- Dennis Brotzky
+- Li Zhipeng
 
 ---
 Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.

@@ -2,38 +2,42 @@
 title: OriginECN 官方网站
 date: 2020-03-01T15:00:00.000+00:00
 hero: "/images/cover.jpeg"
-excerpt: 金融经纪商OriginECN的官方网站从0到1的建设过程，并经历3个大版本更迭。
+excerpt: 金融经纪商OriginECN官方网站从0到1的建设过程，并经历3个大版本更迭。
 timeToRead: 6
 authors:
 - Li Zhipeng
 
 ---
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+**概要：**从0到1建设OriginECN官方网站，并随着公司品牌力提升，对网站进行三次版本的更迭。
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere. In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+**目的：**让客户通过网站了解OriginECN这个外汇经纪商品牌，对公司留下较好印象，以提高销售人员信心，促进客户成交率。
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+**效果：**从销售人员反馈得知，客户通过网站，表达出对公司较高的认可度。甚至公司官网被同行抄袭。
 
-<div class="Image__Small">
-  <img src="/images/small.jpg" alt="alt text for small image" />
-</div>
+**技能：**市场调研、竞品分析、UCD产品思维、原型制作、高保真设计图交付。
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+**工具：**PS、AI
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+**时长：**平均每个版本花费3周
 
-> There is also the ability to define blockquotes that look like this and can span multiple lines
+***
+
+## 01.背景
+
+> 元旦的时候我们就要开发布会，告诉媒体和客户我们进入中国市场了，在那之前公司官网必须上线，不然就太丢人了。
+>
+> —— The boss
 
 But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
 
 <div class="Image__Medium">
-  <img src="/images/medium.jpg" alt="alt text for medium image" />
+<img src="/images/medium.jpg" alt="alt text for medium image" />
 </div>
 
 But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
 
 <div class="Image__Large">
-  <img src="/images/large.jpg" alt="alt text for large image" />
+<img src="/images/large.jpg" alt="alt text for large image" />
 </div>
 
 But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
@@ -126,7 +130,7 @@ Gatsby requires Node to be installed to run the Bootstrap and Build sequences. U
 
 ### Step 1
 
-During the Bootstrap sequence, which occurs every time you run \$ gatsby develop, there are about 20 events that fire ranging from validating your gatsby-config.js to building the data schemas and pages for your site. For example, the Bootstrap sequence is where Gatsby will create pages. If you want an in depth look of all 20 Bootstrap steps Swyx shared a fantastic Gist that goes into more detail.
+During the Bootstrap sequence, which occurs every time you run $ gatsby develop, there are about 20 events that fire ranging from validating your gatsby-config.js to building the data schemas and pages for your site. For example, the Bootstrap sequence is where Gatsby will create pages. If you want an in depth look of all 20 Bootstrap steps Swyx shared a fantastic Gist that goes into more detail.
 
 ### Step 2
 
@@ -138,12 +142,12 @@ And finally, once the generated files are deployed, Gatsby lives in the browser.
 
 What’s important to remember is that Gatsby’s lifecycle can be aggregated into 3 main sequences:
 
-- Bootstrap
-- Build
-- Browser
-- These three sequences makeup the Gatsby lifecycle.
+* Bootstrap
+* Build
+* Browser
+* These three sequences makeup the Gatsby lifecycle.
 
----
+***
 
 ## What are the Gatsby specific files for?
 
@@ -175,17 +179,17 @@ Gatsby runs a Node process when you develop or build your website and uses Webpa
 
 Everything that occurs during the Bootstrap and Build sequences occurs in gatsby-node.js. This means it’s the perfect place to create pages dynamically based off data from a source plugin or modify Gatsby’s Webpack or Babel configs.
 
-For example, if you want to move some files manually, such as a Netlify \_redirects file, a good place to do it is in your gatsby-node.js file at the onPostBuild lifecycle hook.
+For example, if you want to move some files manually, such as a Netlify _redirects file, a good place to do it is in your gatsby-node.js file at the onPostBuild lifecycle hook.
 
 From experience, most of my time has revolved around handling data and building pages in gatsby-node.js. This file quickly becomes the piping of your entire website.
 
 ### Examples of gatsby-node.js hooks:
 
-- createPages
-- onCreateBabelConfig
-- onCreateWebpackConfig
-- onPostBuild
-- gatsby-ssr.js
+* createPages
+* onCreateBabelConfig
+* onCreateWebpackConfig
+* onPostBuild
+* gatsby-ssr.js
 
 When you think Server Side Rendering you think of a server that takes in requests and dynamically builds pages and sends it to the client. Gatsby doesn’t do that, but it does server side render — it generates all the pages during build time.
 
@@ -193,10 +197,10 @@ Naturally, gatsby-ssr.js allows developers to hook into that lifecycle. In my ex
 
 ### Examples of gatsby-ssr.js hooks:
 
-- onPreRenderHTML
-- onRenderBody
-- replaceRenderer
-- gatsby-browser.js
+* onPreRenderHTML
+* onRenderBody
+* replaceRenderer
+* gatsby-browser.js
 
 Gatsby is a static site that loads a dynamic application after initial load, which means you get the benefits of a static site in a web application. gatsby-browser.js provides convenient hooks to deal with app loading, route updates, service worker updates, scroll positioning, and more.
 
@@ -204,11 +208,11 @@ Everything that occurs after your static site has loaded can be hooked in gatsby
 
 ### Examples of gatsby-browser.js hooks:
 
-- onClientEntry
-- onRouteUpdate
-- onServiceWorkerInstalled
-- registerServiceWorker
-- shouldUpdateScroll
+* onClientEntry
+* onRouteUpdate
+* onServiceWorkerInstalled
+* registerServiceWorker
+* shouldUpdateScroll
 
 ## Conclusion
 

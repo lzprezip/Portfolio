@@ -1,9 +1,8 @@
 ---
-title: OriginECN official website
+title: OriginECN 官方网站
 date: 2020-03-01T15:00:00.000+00:00
 hero: "/images/cover.jpeg"
-excerpt: With the growing community interest in Gatsby, we hope to create more resources
-  that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: 金融经纪商OriginECN的官方网站从0到1的建设过程，并经历3个大版本更迭。
 timeToRead: 6
 authors:
 - Li Zhipeng

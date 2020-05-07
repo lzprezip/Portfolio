@@ -40,7 +40,7 @@ PS、AI
 >
 > —— The boss
 
-这是我刚进入公司就接到的第一个任务，以为是把英文网站翻译成中文就行，哪想到连英文网站都没有。于是便从研究这个未知的行业开始
+这是我刚进入公司就接到的第一个任务，
 
 <div class="Image__Medium">
 <img src="/images/medium.jpg" alt="alt text for medium image" />

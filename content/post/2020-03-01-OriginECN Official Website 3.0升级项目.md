@@ -24,11 +24,11 @@ authors:
 
 ## 01.背景
 
-> 元旦的时候我们就要开发布会，告诉媒体和客户我们进入中国市场了，在那之前公司官网必须上线，不然就太丢人了。
+> 下个月初我们就要开发布会，告诉媒体和客户我们进入中国市场了，在那之前公司中文官网必须上线。
 >
 > —— The boss
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+这是我刚进入公司就接到的第一个任务，以为是把英文网站翻译成中文就行，哪想到连英文网站都没有。于是便从研究这个未知的行业开始
 
 <div class="Image__Medium">
 <img src="/images/medium.jpg" alt="alt text for medium image" />

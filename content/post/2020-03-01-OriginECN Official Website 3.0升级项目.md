@@ -1,7 +1,7 @@
 ---
-title: OriginECN Official Website 3.0升级项目
+title: OriginECN official website
 date: 2020-03-01T15:00:00.000+00:00
-hero: "/images/avatar.jpg"
+hero: "/images/cover.jpeg"
 excerpt: With the growing community interest in Gatsby, we hope to create more resources
   that make it easier for anyone to grasp the power of this incredible tool.
 timeToRead: 6

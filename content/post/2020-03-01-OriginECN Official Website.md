@@ -34,13 +34,13 @@ PS、AI
 
 ***
 
-# 01.背景
+# 01. V1.0 时间紧迫
 
 > 下个月初要开发布会，告诉媒体和客户我们进入中国市场，在那之前公司官网必须上线。 
 >
 > —— The boss
 
-这是我刚进入公司就接到的第一个任务，
+在这样时间紧迫的情况下，
 
 <div class="Image__Medium">
 <img src="/images/medium.jpg" alt="alt text for medium image" />

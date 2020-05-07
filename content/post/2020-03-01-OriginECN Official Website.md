@@ -76,36 +76,6 @@ PS、AI
 2. 41%的网站会将低交易成本和高杠杆作为优势，展示在网站首屏。
 3. 100%的网站均提供多语言版本，至少提供英语版本。
 
-```js live
-const Wrapper = ({ children }) => (
-  <div
-    style={{
-      background: "papayawhip",
-      width: "100%",
-      padding: "2rem"
-    }}
-  >
-    {children}
-  </div>
-);
-
-const Title = () => (
-  <h2 style={{ color: "palevioletred", textAlign: "center" }}>
-    Hello World!
-    <br />
-    Try Novela Gatsby Theme.
-  </h2>
-);
-
-render(
-  <Wrapper>
-    <Title />
-  </Wrapper>
-);
-```
-
-One of the challenges I had when learning Gatsby was trying to understand the Gatsby lifecycle. React introduced me to the concept of a Component Lifecycle, but when I started learning Gatsby I felt at a loss again. I remember looking through example repositories and seeing Gatsby specific files in every project and thinking to myself, “What are these files for? Why are gatsby-node.js, gatsby-browser.js, and gatsby-ssr.js generated in the default starter kit? Can I really delete these files?”
-
 ## How does Gatsby work?
 
 To understand what these files are for, we must first understand how Gatsby works. Gatsby is a static site generator that pulls data from sources you provide and generates a website/app for you.

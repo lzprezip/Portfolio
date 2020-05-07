@@ -34,75 +34,25 @@ PS、AI
 
 ***
 
-# 01. V1.0 时间紧迫
+# 01. 时间紧迫 V1.0
 
 > 下个月初要开发布会，告诉媒体和客户我们进入中国市场，在那之前公司官网必须上线。 
 >
 > —— The boss
 
-在这样时间紧迫的情况下，
+在这样时间紧迫的情况下，用最短的时间确保官网顺利上线才是重中之重，所以忽略了大量的前期调研工作，直接参考市面上的竞品，仿照其内容和网站框架进行搭建。
 
-<div class="Image__Medium">
-<img src="/images/medium.jpg" alt="alt text for medium image" />
-</div>
+## 设计稿
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves? But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+***
 
-<div class="Image__Large">
-<img src="/images/large.jpg" alt="alt text for large image" />
-</div>
+# 02. 改头换面 V2.0
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+由于意识到V1.0版本目的是为了应付发布会的仓促之作，不管是框架内容还是设计都存在大量提升空间。所以在第一个版本上线仅2个月时，团队开始着手官网第二版的升级工作。
 
-## This is a secondary heading
+## 调研
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-```js {5-6}
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
-
-import SocialIcons from "@icons";
-import mediaqueries from "@styles/media";
-
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon
-};
-
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
-
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-At Narative, we’ve been fans of Gatsby from day one, using it to build performant and flexible products for both clients and ourselves. With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+此时的调研主要是与公司已有客户间接沟通，通过与销售人员聊天，去了解做在线外汇交易的客户特征，以及这样的客户在选择外汇平台时更看重哪些方面。
 
 ```js live
 const Wrapper = ({ children }) => (

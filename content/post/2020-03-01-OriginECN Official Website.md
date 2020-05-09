@@ -44,7 +44,7 @@ PS、AI
 
 ## 设计稿
 
-![](/images/1.jpg)
+> ![](/images/1.jpg)
 
 ***
 

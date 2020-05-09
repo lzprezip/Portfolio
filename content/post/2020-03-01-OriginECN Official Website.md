@@ -86,6 +86,8 @@ PS、AI
 
 首先是确认网站的导航框架，既然首页是用来解决客户最关心的问题（安全和体验），那么导航里面的页面就是解决客户不太关心问题。对于那些还不太了解外汇交易的客户来说，他们希望可以快速了解产品的内容（交易产品）。在了解产品之后，就需要知道如何进行交易（交易平台）。再包含平台的一些其他服务，导航的雏形渐渐显现出来。
 
+![](/images/3.jpg)
+
 ### Step 1
 
 During the Bootstrap sequence, which occurs every time you run $ gatsby develop, there are about 20 events that fire ranging from validating your gatsby-config.js to building the data schemas and pages for your site. For example, the Bootstrap sequence is where Gatsby will create pages. If you want an in depth look of all 20 Bootstrap steps Swyx shared a fantastic Gist that goes into more detail.

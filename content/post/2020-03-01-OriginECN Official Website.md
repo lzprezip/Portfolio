@@ -82,11 +82,9 @@ PS、AI
 
 * 所有的网站均提供多语言版本，至少提供英语版本，让客户认为是国外平台，增加信服力。
 
-## How does Gatsby work?
+## 网站框架
 
-To understand what these files are for, we must first understand how Gatsby works. Gatsby is a static site generator that pulls data from sources you provide and generates a website/app for you.
-
-Gatsby requires Node to be installed to run the Bootstrap and Build sequences. Under the hood, Gatsby uses Webpack to build and start a development server amongst other things.
+首先是确认网站的导航框架，既然首页是用来解决客户最关心的问题（安全和体验），那么导航里面的页面就是解决客户不太关心问题。对于那些还不太了解外汇交易的客户来说，他们希望可以快速了解产品的内容（交易产品）。在了解产品之后，就需要知道如何进行交易（交易平台）。
 
 ### Step 1
 

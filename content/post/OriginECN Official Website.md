@@ -94,7 +94,7 @@ During
 
 在进行高保真设计时，考虑到金融行业的属性，放弃了过于活泼跳脱的颜色，尝试黑白两种风格的设计。在选择网站辅助颜色时，采用了OriginECN logo中的红色，用来对网站中的按钮和其他反色部分进行点缀
 
-网站的重要目的之一就是引导客户开户，所以网站在多个位置展示开户按钮。整个首页围绕资金安全、交易顺畅展开，And finally, once the generated files are deployed, Gatsby lives in the browser. Gatsby cleverly generates a static website that turns into a web app after initial load, which extends the lifecycle to the browser.
+网站的重要目的之一就是引导客户开户，所以网站在多个位置展示开户按钮。整个首页围绕资金安全、交易便捷展开，塑造出OriginECN八大优势的特点，And finally, once the generated files are deployed, Gatsby lives in the browser. Gatsby cleverly generates a static website that turns into a web app after initial load, which extends the lifecycle to the browser.
 
 What’s important to remember is that Gatsby’s lifecycle can be aggregated into 3 main sequences:
 

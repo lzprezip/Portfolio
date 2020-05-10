@@ -100,9 +100,9 @@ During
 
 ***
 
-# 03. 顺应潮流
+# 03. 顺应潮流 V3.0
 
-随着国外外汇交易平台陆续进入中国市场，gatsby-config.js A place to put all your site configurations such as plugins, metadata, and polyfills. This file is the blueprint of your application and is where Gatsby really shines with its plugin system. When you run $ gatsby develop or $ gatsby build gatsby-config.js is t
+随着国外外汇交易平台陆续进入中国市场，越来越多的简约实用设计被客户所接受，OriginECN的网站此时来看显得有些臃肿，网站的第三版升级项目被提上日程。gatsby-config.js A place to put all your site configurations such as plugins, metadata, and polyfills. This file is the blueprint of your application and is where Gatsby really shines with its plugin system. When you run $ gatsby develop or $ gatsby build gatsby-config.js is t
 
 Most of your time spent in gatsby-config.js will likely revolve around source plugins, image plugins, offline support, styling options, and site metadata.
 

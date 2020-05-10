@@ -92,7 +92,7 @@ During
 
 ### 高保真设计稿
 
-在进行高保真设计时，尝试了黑白两种不同风格的颜色设计，And finally, once the generated files are deployed, Gatsby lives in the browser. Gatsby cleverly generates a static website that turns into a web app after initial load, which extends the lifecycle to the browser.
+在进行高保真设计时，考虑到金融行业的属性，And finally, once the generated files are deployed, Gatsby lives in the browser. Gatsby cleverly generates a static website that turns into a web app after initial load, which extends the lifecycle to the browser.
 
 What’s important to remember is that Gatsby’s lifecycle can be aggregated into 3 main sequences:
 

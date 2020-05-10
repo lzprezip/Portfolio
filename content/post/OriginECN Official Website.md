@@ -110,25 +110,6 @@ During
 * 客户选择外汇平台时最关心什么
 * 客户希望平台能提供哪些服务
 
-Most of your time spent in gatsby-config.js will likely revolve around source plugins, image plugins, offline support, styling options, and site metadata.
-
-```jsx
-function MDX({ content, children, ...props }) {
-  const [colorMode] = useColorMode();
-
-  return (
-    <MDXProvider components={components}>
-      <MDXBody>
-        <MDXRenderer isDark={colorMode === "dark"} {...props}>
-          {content}
-        </MDXRenderer>
-        {children}
-      </MDXBody>
-    </MDXProvider>
-  );
-}
-```
-
 ### gatsby-node.js
 
 Gatsby runs a Node process when you develop or build your website and uses Webpack under the hood to spin up a development server with hot reloading. During the Node process Gatsby will load plugins, check the cache, bootstrap the website, build the data schema, create pages, and deal with some configuration and data management.

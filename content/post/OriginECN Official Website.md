@@ -98,15 +98,11 @@ During
 
 关于公司新闻和动态的板块，此部分内容不是客户重点关心的，但是活跃的首页有利于SEO，所以仍将该部分内容放于首页底部。
 
-* Build
-* Browser
-* These three sequences makeup the Gatsby lifecycle.
-
 ***
 
-## What are the Gatsby specific files for?
+# 03. 顺应潮流
 
-gatsby-config.js A place to put all your site configurations such as plugins, metadata, and polyfills. This file is the blueprint of your application and is where Gatsby really shines with its plugin system. When you run $ gatsby develop or $ gatsby build gatsby-config.js is the first file to be read and validated.
+随着国外外汇交易平台陆续进入中国市场，gatsby-config.js A place to put all your site configurations such as plugins, metadata, and polyfills. This file is the blueprint of your application and is where Gatsby really shines with its plugin system. When you run $ gatsby develop or $ gatsby build gatsby-config.js is t
 
 Most of your time spent in gatsby-config.js will likely revolve around source plugins, image plugins, offline support, styling options, and site metadata.
 

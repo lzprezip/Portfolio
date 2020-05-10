@@ -110,6 +110,8 @@ During
 * 客户选择外汇平台时最关心什么
 * 客户希望平台能提供哪些服务
 
+相对于一年前来说，此时市场上早一批的客户已经熟悉了外汇平台的套路，开始渐渐向代理商转型。
+
 ### gatsby-node.js
 
 Gatsby runs a Node process when you develop or build your website and uses Webpack under the hood to spin up a development server with hot reloading. During the Node process Gatsby will load plugins, check the cache, bootstrap the website, build the data schema, create pages, and deal with some configuration and data management.

@@ -107,7 +107,7 @@ During
 在准备动手之前，去跟真实的客户去聊聊，是一个不错的调研方式。团队小伙伴们分散去参加各种外汇讲座和展会，以新兴媒体的身份，去和现场的客户聊天，围绕着三个问题进行展开：
 
 * 客户为什么选择外汇交易
-* 客户选择外汇平台时最看重什么
+* 客户选择外汇平台时最关心什么
 * 客户希望平台能提供哪些服务
 
 Most of your time spent in gatsby-config.js will likely revolve around source plugins, image plugins, offline support, styling options, and site metadata.

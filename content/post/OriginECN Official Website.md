@@ -122,7 +122,7 @@ PS、AI
 
 所以根据以上的调研结果，第三版官网的重点就明确了，那开始画吧。
 
-### gatsby-node.js
+## 线框稿
 
 Gatsby runs a Node process when you develop or build your website and uses Webpack under the hood to spin up a development server with hot reloading. During the Node process Gatsby will load plugins, check the cache, bootstrap the website, build the data schema, create pages, and deal with some configuration and data management.
 

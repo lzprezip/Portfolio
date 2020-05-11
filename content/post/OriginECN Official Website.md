@@ -120,7 +120,7 @@ PS、AI
 
 ## 导航栏
 
-所以根据以上的调研结果，精简掉客户几乎不会点开的页面，把客户的需求集中在“交易”这一个导航菜单中，整个网站的框架也变得清晰明朗起来。
+首先要做的就是“瘦身”，之前臃肿的导航栏给了客户很大的困扰，所以这次根据以上的调研结果，精简掉客户几乎不会点开的页面，把客户的需求集中在“交易”这一个导航菜单中，整个网站的框架也变得清晰易用起来。
 
 > ![](/images/6.jpg)
 
@@ -129,40 +129,3 @@ PS、AI
 ## 线框稿
 
 ## 设计稿
-
-* createPages
-* onCreateBabelConfig
-* onCreateWebpackConfig
-* onPostBuild
-* gatsby-ssr.js
-
-When you think Server Side Rendering you think of a server that takes in requests and dynamically builds pages and sends it to the client. Gatsby doesn’t do that, but it does server side render — it generates all the pages during build time.
-
-Naturally, gatsby-ssr.js allows developers to hook into that lifecycle. In my experience, most use cases revolve around injecting CSS, HTML, or Redux state information into the generated output. For example, if you need to insert third party scripts such as Analytics Tracking or a Pixel it can be done on the onRenderBody gatsby-ssr.js hook.
-
-### Examples of gatsby-ssr.js hooks:
-
-* onPreRenderHTML
-* onRenderBody
-* replaceRenderer
-* gatsby-browser.js
-
-Gatsby is a static site that loads a dynamic application after initial load, which means you get the benefits of a static site in a web application. gatsby-browser.js provides convenient hooks to deal with app loading, route updates, service worker updates, scroll positioning, and more.
-
-Everything that occurs after your static site has loaded can be hooked in gatsby-browser.js. For apps that I’ve built, gatsby-browser.js was mostly used for keeping track of routes, scroll positioning, and sending analytics events.
-
-### Examples of gatsby-browser.js hooks:
-
-* onClientEntry
-* onRouteUpdate
-* onServiceWorkerInstalled
-* registerServiceWorker
-* shouldUpdateScroll
-
-## Conclusion
-
-Gatsby is built with React at its core and shares a common API pattern, the lifecycle. This lifecycle gives developers access to key moments in their website’s process through specific hooks. For example, adding analytics can be achieved through the Browser lifecycle hook onClientEntry. Gatsby reserves specific filenames as an entry point to access every lifecycle; these files are named gatsby-node.js, gatsby-ssr.js and gatsby-browser.js.
-
-Without the Gatsby lifecycle, it would be impossible to customize and modify your project beyond the base configuration, leaving developers with a rigid and poor developer experience. This power and flexibility has helped us build amazing web projects for clients like Hopper!
-
-Gatsby is a staple within our engineering process at Narative, helping us help our clients build the products they’ve always dreamed of, and the ones they’re yet to dream up.

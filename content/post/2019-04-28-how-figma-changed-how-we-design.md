@@ -2,8 +2,7 @@
 title: Nuts block 区块链项目APP 项目总结
 date: 2019-04-28
 hero: "/images/00-cover.jpg"
-excerpt: To understand why Figma is the best design tool for our company, you have
-  to understand what we do. As a designer.
+excerpt: Nuts block APP是区块链行业连接项目方和用户的内容分发平台
 timeToRead: 8
 authors:
 - Thiago Costa

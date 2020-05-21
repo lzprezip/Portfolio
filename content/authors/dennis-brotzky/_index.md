@@ -4,6 +4,8 @@ bio: 我是李志鹏，是一名产品设计师，目前居住在上海。2014�
 avatar: "/images/avatar.jpg"
 featured: true
 social:
+- title: Linkedin
+  url: https://www.linkedin.com/in/eric-li-489047121/
 - title: Youtube
   url: https://www.youtube.com/channel/UC0z7UuEePA-EDCBChmIO2EA/playlists?
 - title: github

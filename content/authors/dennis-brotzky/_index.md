@@ -4,8 +4,6 @@ bio: 我是李志鹏，是一名产品设计师，目前居住在上海。2014�
 avatar: "/images/avatar.jpg"
 featured: true
 social:
-- title: Youtube
-  url: https://www.youtube.com/channel/UC0z7UuEePA-EDCBChmIO2EA/playlists?
 - title: github
   url: https://github.com/lzprezip
 

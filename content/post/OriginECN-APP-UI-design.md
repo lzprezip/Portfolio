@@ -1,7 +1,7 @@
 ---
 title: OriginECN APP 项目 重构总结
 date: 2020-06-10T16:00:00.000+00:00
-hero: "/images/00-cover.jpg"
+hero: "https://s1.ax1x.com/2020/06/26/Ns7Pit.jpg"
 excerpt: 该项目旨在完善部分功能和改进用户体验
 timeToRead: 4
 authors:

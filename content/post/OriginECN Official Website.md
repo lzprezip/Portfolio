@@ -1,5 +1,5 @@
 ---
-title: OriginECN 官方网站
+title: OriginECN 官方网站 项目总结
 date: 2020-03-01T15:00:00.000+00:00
 hero: "/images/cover.jpg"
 excerpt: 金融经纪商OriginECN官方网站从0到1的建设过程，并经历3个大版本更迭。

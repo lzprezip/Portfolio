@@ -2,7 +2,7 @@
 title: Nuts block 区块链项目APP 项目总结
 date: 2020-05-10T16:00:00.000+00:00
 hero: "/images/00-cover.jpg"
-excerpt: Nuts block APP是区块链行业连接项目方和用户的内容分发平台
+excerpt: Nuts block APP是区块链行业连接项目方和用户的内容分发平台，该UI设计稿为初版上线项目
 timeToRead: 4
 authors:
 - Li Zhipeng
